@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <title>@ViewData["Title"] - Minha App Modelo</title>
+    <enviroment include="">
+
+    </enviroment>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-buttom mb-3">
+            <div class="container">
+                <a class="navbar-brand"></a>
+                <button></button>
+                <div class="navbar-collapse collapse">
+                    <ul>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top card-footer text-muted">
+        <div class="container">
+            TagHelper - <email>contato1</email>
+            TagHelper Ex: Com parametro - <email email-domain="gmail.com">contato1</email>
+        </div>
+    </footer>
+
+    <environment include="Development">
+
+    </environment>
+</body>
+</html>
